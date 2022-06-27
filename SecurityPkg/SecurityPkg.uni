@@ -168,6 +168,7 @@
 
 #string STR_gEfiSecurityPkgTokenSpaceGuid_PcdStatusCodeSubClassTpmDevice_PROMPT  #language en-US "Status Code for TPM device definitions"
 
+// MU_CHANGE: BZ3966: Update default to match EFI_PERIPHERAL_TPM from PiStatusCode.h definition
 #string STR_gEfiSecurityPkgTokenSpaceGuid_PcdStatusCodeSubClassTpmDevice_HELP  #language en-US "Progress Code for TPM device subclass definitions.<BR><BR>\n"
                                                                                                "EFI_PERIPHERAL_TPM  = (EFI_PERIPHERAL | 0x000E0000) = 0x010E0000<BR>"
 
