@@ -11,54 +11,51 @@ Ubuntu_GCC5_                  |UbuntuCiBuild|   |UbuntuCiTest|  |UbuntuCiCoverag
 
 This repository is part of Project Mu.  Please see Project Mu for details https://microsoft.github.io/mu
 
-Branch Status - release/202302
+Branch Status - release/202308
 ==============================
 
 :Status:
   In Development
 
 :Entered Development:
-  2023/05/09
+  2023/10/23
 
 :Anticipated Stabilization:
-  Aug 2023
+  Feb 2024
 
-Branch Changes - release/202302
+Branch Changes - release/202308
 ===============================
 
 Breaking Changes-dev
 --------------------
 
-- Removed RVCT support.
+- Incomplete
 
 Main Changes-dev
 ----------------
 
-- Updated Stack cookies for release builds
-- Integrated CodeQL checking and fixes
+- Incomplete
 
 Bug Fixes-dev
 -------------
 
-- We no longer set access attributes of RUntime MMIO ranges
-- Added SafeIntLib to PrmPkg and EmbeddedPkg for HiiLib
+- Incomplete
 
-2302_RefBoot Changes
+2308_RefBoot Changes
 --------------------
 
 - Incomplete
 
-2302_CIBuild Changes
+2308_CIBuild Changes
 --------------------
 
-- Added additional spellcheck word ignores for several packages
-- Updated CISettings to reference release/202302 for mu_basecore
+- Incomplete
 
-2302_Rebase Changes
+2308_Rebase Changes
 -------------------
 
-| Starting commit: 50fd5d8f3a612568a5c8dc08a69eab879101a21b
-| Destination Commit from upstream edk2: f80f052277c88a67c55e107b550f504eeea947d3
+| Starting commit: 5c96768c404d1e4e32b1fea6bfd83e588c0f5d67
+| Destination Commit from upstream edk2: 819cfc6b42a68790a23509e4fcc58ceb70e1965e
 
 Code of Conduct
 ===============
@@ -142,12 +139,12 @@ POSSIBILITY OF SUCH DAMAGE.
 
 .. CoreCI
 
-.. _Windows_VS2019: https://dev.azure.com/projectmu/mu/_build/latest?definitionId=55&&branchName=release%2F202302
-.. |WindowsCiBuild| image:: https://dev.azure.com/projectmu/mu/_apis/build/status/CI/Mu%20Tiano%20Plus%20CI%20VS2019?branchName=release%2F202302
+.. _Windows_VS2019: https://dev.azure.com/projectmu/mu/_build/latest?definitionId=55&&branchName=release%2F202308
+.. |WindowsCiBuild| image:: https://dev.azure.com/projectmu/mu/_apis/build/status/CI/Mu%20Tiano%20Plus%20CI%20VS2019?branchName=release%2F202308
 .. |WindowsCiTest| image:: https://img.shields.io/azure-devops/tests/projectmu/mu/55.svg
 .. |WindowsCiCoverage| image:: https://img.shields.io/badge/coverage-coming_soon-blue
 
-.. _Ubuntu_GCC5: https://dev.azure.com/projectmu/mu/_build/latest?definitionId=56&branchName=release%2F202302
-.. |UbuntuCiBuild| image:: https://dev.azure.com/projectmu/mu/_apis/build/status/CI/Mu%20Tiano%20Plus%20CI%20Ubuntu%20GCC5?branchName=release%2F202302
+.. _Ubuntu_GCC5: https://dev.azure.com/projectmu/mu/_build/latest?definitionId=56&branchName=release%2F202308
+.. |UbuntuCiBuild| image:: https://dev.azure.com/projectmu/mu/_apis/build/status/CI/Mu%20Tiano%20Plus%20CI%20Ubuntu%20GCC5?branchName=release%2F202308
 .. |UbuntuCiTest| image:: https://img.shields.io/azure-devops/tests/projectmu/mu/56.svg
 .. |UbuntuCiCoverage| image:: https://img.shields.io/badge/coverage-coming_soon-blue
