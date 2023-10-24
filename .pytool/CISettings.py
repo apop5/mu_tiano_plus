@@ -230,7 +230,7 @@ class Settings(CiSetupSettingsManager, CiBuildSettingsManager, UpdateSettingsMan
             {
                 "Path": "MU_BASECORE",
                 "Url": "https://github.com/microsoft/mu_basecore.git",
-                "Branch": "release/202302"
+                "Branch": "personal/klautner/rebase/2308_Staging"
             }
         ]
         # MU_CHANGE END
