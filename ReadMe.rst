@@ -34,12 +34,15 @@ Breaking Changes-dev
 Main Changes-dev
 ----------------
 
-- Incomplete
+- FirmwareVolumeShadowPpi is now being used in ReportFvPei
+- HdPasswordDxe now uses variable policy
+- Dropped LibRtcVirtualNotifyEvent
 
 Bug Fixes-dev
 -------------
 
-- Incomplete
+- Made mTcg2Protocol static
+- Fixed VS20xx 4122 errors in SecureBootVariableLib
 
 2308_RefBoot Changes
 --------------------
@@ -49,7 +52,7 @@ Bug Fixes-dev
 2308_CIBuild Changes
 --------------------
 
-- Incomplete
+- Nothing
 
 2308_Rebase Changes
 -------------------
